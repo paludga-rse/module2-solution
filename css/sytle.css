@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border: 0;
+}
+body{
+  font-family: Arial sans-serif;
+  text-align: center;
+  margin: 2%;
+}
+
+h1{
+  margin: 30pt;
+}
+p {
+  margin-top: 30px;
+  text-align: left;
+  padding: 10px;
+}
+.menu {
+  background-color: lightgray;
+  position: relative;
+  float:left;
+  border: black solid 3px;
+}
+.title {
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  font-size: 120%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: black solid 3px;
+
+}
+
+#chicken{
+  background-color: lightblue;
+}
+#beef{
+  background-color: lightgreen;
+}
+#sushi{
+  background-color: lightcyan;
+}
+@media (min-width:992px){
+  #chickenmenu{
+    width:30%;
+    margin-right: 2%;
+  }
+  #beefmenu{
+    width:30%;
+    margin-right: 2%;
+  }
+  #sushimenu{
+    width:30%;
+  }
+
+}
+@media (min-width:768px) and (max-width: 991px){
+
+  #chickenmenu{
+    width:48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+  }
+  #beefmenu{
+    width:48%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+  }
+  #sushimenu{
+    width:100%;
+    box-sizing: border-box;
+  }
+
+}
+
+@media (max-width: 767px ){
+
+  #chickenmenu{
+    width: 96%;
+    margin:2%;
+  }
+  #beefmenu{
+    width: 96%;
+    margin:2%;
+  }
+  #sushimenu{
+    width: 96%;
+    margin:2%;
+  }
+
+}
